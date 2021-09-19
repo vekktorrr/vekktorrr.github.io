@@ -1,0 +1,18 @@
+div{
+    
+    font-size: 20px;
+}
+span{
+    color: rgb(255,180,5);
+}
+.text{
+    color: red;
+}
+[custom_data=""] {
+    color: blue !important;
+}
+
+span.text{
+    color: green;
+    
+}
