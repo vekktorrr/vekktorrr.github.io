@@ -70,3 +70,22 @@ nav{
     margin-top: 58px;
     margin: 50px 14px 0px 14px;
 }
+
+
+h2{
+    padding-top: 110px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #263244;
+    text-transform: uppercase;
+   
+    background:  url(../img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.jpg) center no-repeat , 
+        url(../img/bg2.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 100%;
+    
+    
+    
+    
+}
