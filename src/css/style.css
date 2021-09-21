@@ -140,11 +140,16 @@ nav{
 }
 
 
-div>ul{
-    float: left;
+
+.parent{
+    height: 100%;
 }
-
-
+.child{
+    height: 100%;
+    float: left;
+    width: 100%;
+    
+}
 
 
 
