@@ -151,7 +151,42 @@ nav{
     
 }
 
+.case{
+     font-size: 18px;
+     padding-top: 75px;
+    font-weight: 700;
+    text-align: center;
+}
+.case h2{
+    font-size: 18px;
+     padding-top: 75px;
+    font-weight: 700;
+    text-align: center;
+    color: #263244;
+    text-transform: uppercase;
+}
+.case p{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 30px auto 30px auto;
+    color: #3f495a;
+    background: #fff;
+    width: 100%;
+    
+}
 
+.display_block3{
+    background: url(../img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.jpg) center no-repeat;
+    margin-right: 400px;
+   
+    
+}
+.client{
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    vertical-align: text-top;
+}
 
 
    
