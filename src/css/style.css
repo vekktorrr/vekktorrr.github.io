@@ -50,8 +50,9 @@ nav{
     
 }
 .title__container h4{
-    margin-top: 40px;
+    margin-top: 35px;
     font-size: 22px;
+    font-weight: 600;
     color: #79818d;
 }
 
@@ -63,39 +64,103 @@ nav{
     border-radius: 5px;
     color: #6d7682;
     font-size: 13px;
+    font-weight: 600;
     padding: 0px 16px;
     margin-top: 58px;
     margin: 50px 14px 0px 14px;
 }
 
 
-h2{
+.aboutme{
     padding-top: 110px;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 18px;
     text-align: center;
     color: #263244;
-    text-transform: uppercase;
     width: 100%;
-    height: 700px;
     margin: auto;
     background-color: #fff;
     
 }
-h2 >br{
+
+.aboutme>h2{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #263244;
+    text-transform: uppercase;
+    
+}
+.display_block{
     background: url(../img/boymini.png) center no-repeat;
-    height: 42px;
-    width: 70px;
+    margin: 50px auto 15px auto; 
+   
+    
+}
+
+.aboutme>p{
+    font-size: 10px;
+    width: 700px;
+    font-weight: 500;
+    color: #3f495a;
+    margin: 35px auto 30px auto;
+    text-align: left;
+}
+
+.aboutme input{
+    height: 25px;
+    text-align: center;
+    border: 2px solid #6f707e;
+    margin: 20px auto 30px auto;
+    background: none;
+    border-radius: 5px;
+    color: #6f707e;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 0px 16px;
+    width: 140px;
+    margin: 9px 8px 12px 11px;
+    
+}
+
+.what_i_can_do{
+    padding-top: 75px;
+    text-align: center;
+    color: #263244;
+    width: 100%;
+    background: url(../img/bg3.jpg) center/cover no-repeat;
+   
+}
+.what_i_can_do h2{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #263244;
+    text-transform: uppercase;
+
+}
+
+
+div>ul{
+    float: left;
+}
+
+
+
+
+
+
+   
+
       
     
-}
 
 
 
+
     
     
     
     
     
     
-}
+
