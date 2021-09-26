@@ -127,9 +127,12 @@ nav{
     text-align: center;
     color: #263244;
     width: 100%;
+    height: 500px;
     background: url(../img/bg3.jpg) center/cover no-repeat;
-   
+      
 }
+
+
 .what_i_can_do h2{
     font-size: 18px;
     font-weight: 700;
@@ -139,27 +142,113 @@ nav{
 
 }
 
-
-
-.parent{
-    height: 100%;
-}
-.child{
-    height: 100%;
-    float: left;
-    width: 100%;
+.what_i_can_do li{
+   margin-right: 50px; 
+   color: #cf7600;
+   font-weight: 500; 
+    
     
 }
 
+.what_i_can_do ul{
+   margin-top: 85px; 
+}
+
+.what_i_can_do p{
+    font-weight: 500;
+    color: #616976;
+}
+
+.computer{
+    float: left;
+    width: 280px;
+    
+}
+
+
+.computer li{
+    margin: 20px 0px 10px 0px ;
+    text-align: center;
+    color: #cf7600;
+    font-weight: 600; 
+}
+
+.computer p{
+    font-weight: 500;
+    color: #616976;
+        
+
+}
+.development{
+    float: left;
+    width: 280px;
+}
+
+
+.development li{
+    margin: 20px 0px 10px 0px ;
+    text-align: center;
+    color: #cf7600;
+    font-weight: 600; 
+      
+}
+
+.development p{
+    font-weight: 500;
+    color: #616976;
+}
+.optimization{
+    float: left;
+    width: 280px;
+}
+
+
+.optimization li{
+    margin: 20px 0px 10px 0px ;
+    text-align: center;
+    color: #cf7600;
+    font-weight: 600; 
+}
+
+.optimization  p{
+    font-weight: 500;
+    color: #616976;
+    
+}
+
+.marketing{
+    float: left;
+    width: 280px;
+}
+
+
+.marketing li{
+    margin: 20px 0px 10px 0px ;
+    text-align: center;
+    color: #cf7600;
+    font-weight: 600; 
+    
+}
+
+.marketing  p{
+    font-weight: 500; 
+    color: #616976;
+}
+
+.what_i_can_do ul{
+    padding-left: 300px;
+    margin-right: 150px;
+}
+
+
 .case{
-     font-size: 18px;
-     padding-top: 75px;
+    font-size: 18px;
     font-weight: 700;
     text-align: center;
 }
 .case h2{
     font-size: 18px;
-     padding-top: 75px;
+    padding-top: 75px;
     font-weight: 700;
     text-align: center;
     color: #263244;
@@ -173,34 +262,239 @@ nav{
     background: #fff;
     width: 100%;
     
-}
-
-.display_block3{
-    background: url(../img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.jpg) center no-repeat;
-    margin-right: 400px;
-   
     
 }
-.client{
-    font-size: 10px;
+
+.client >h2{
+    font-size: 18px;
     font-weight: 600;
+    color: #384354;
     text-transform: uppercase;
-    vertical-align: text-top;
+    text-align: left;
+    padding-left: 210px;
+          
 }
 
 
+.client >h4{
+    font-size: 14px;
+    text-align: left;
+    padding-left: 210px; 
+    margin-top: 10px;
+    color: #3f495a
+}
+
+.website >h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #384354;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 210px;
+    padding-top: 10px;
+}
+
+.website >h4{
+    font-size: 14px;
+    text-align: left;
+    padding-left: 210px; 
+    margin-top: 10px;
+    color: #3f495a
+    
+}
+.input{
+    height: 40px;
+    border: 2px solid #63b5ae;
+    background: #63b5ae;
+    border-radius: 5px;
+    width: 150px;
+    padding-left: 210px;
+    
    
+}
 
-      
+.Visit live site{
+   font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
     
+}
+
+.name{
+    text-align: left;
+    padding-left: 500px;
+   
+    
+}
+
+
+.name h3{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 65px;
+    margin: 10px 200px 0px 0px;
+    
+    color: #3f495a;
+}
+
+.name p{
+    font-size: 16px;
+    width: 850px;
+    font-weight: 500;
+    color: #3f495a;
+    line-height: 23px;
+    margin: 10px 200px 0px 0px;
+    
+}
+
+.money h2{
+    font-size: 25px;
+    padding-top: 75px;
+    font-weight: 700;
+    text-align: center;
+    color: #1c2534;
+    
+}
+.money h3{
+    padding-left: 400px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #1c2534;
+    margin-top: 50px;
+    
+}
+
+.money input{
+    height: 40px;
+    width: 600px;
+    padding-left: 400px;
+    border: 2px solid #eeeeee;
+    border-color: #eeeeee;
+    background: #eeeeee;
+}
+
+ .design  h3{
+    padding-left: 400px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #1c2534;
+    margin-top: 50px;
+}
+
+ .design input{
+    height: 40px;
+    width: 600px;
+    padding-left: 400px;
+    border: 2px solid #eeeeee;
+    border-color: #eeeeee;
+    background: #eeeeee;
+}
+
+.adaptation h3{
+    padding-left: 400px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #1c2534;
+    margin-top: 50px;
+}
+  
+.adaptation input{
+    height: 40px;
+    width: 600px;
+    padding-left: 400px;
+    border: 2px solid #eeeeee;
+    border-color: #eeeeee;
+    background: #eeeeee;
+}
+
+.adaptation h4{
+    padding-left: 400px;
+    font-size: 14px;
+    font-weight: 600;
+     line-height: 23px;
+    
+}
+
+.line{
+    padding-left: 400px;
+    
+
+}
+
+.adaptation zero{
+    padding-right: 660px;
+    font-size: 15px;
+} 
+
+.statistic{
+    padding-top: 70px;
+    text-align: center;
+    color: #263244;
+    width: 100%;
+    height: 500px;
+    background: url(../img/bg4.jpg) center/cover no-repeat;
+    margin-top: 25px;
+    
+}  
+
+
+.statistic h2{
+   font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #263244;
+    text-transform: uppercase; 
+}    
+    
+   
+.smile{
+    float: left;
+    width: 280px;
+    margin-top: 100px;
+    padding-left: 200px;
+}  
+
+.smile h3{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 800;
+   
+}
+
+.smile h5{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.work{
+    float: left;
+    width: 280px;
+    margin-top: 100px;
+    padding-left: 200px;
+}
+
+.projects{
+    float: left;
+    width: 280px;
+    margin-top: 100px;
+    padding-left: 200px;
+}
+
+.bonus{
+    float: left;
+    width: 280px;
+    margin-top: 100px;
+    padding-left: 200px;
+}
 
 
 
 
-    
-    
-    
-    
-    
-    
+
+
 
