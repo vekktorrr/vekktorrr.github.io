@@ -610,6 +610,15 @@ nav{
     margin-top: 20px;
 }
 
+.contacts form{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+    
+}
+
 .navigation{
     float: left;
     width: 140px;
@@ -674,12 +683,20 @@ nav{
     float: left;
     height: 35px;
     width: 350px;
+    background-color: #d2d6dc;
+    padding-left: 10px;
+    
 }
 .yourInput{
-display: block;
+    display: block;
     border: 2px solid #eeeeee;
+    border-radius: 5px;
     height: 35px;
-    width: 150px;
+    width: 110px;
+    margin: 20px auto;
+    background: none;
+    color: #fff; 
+    text-align: center;
     
 }
 
@@ -688,12 +705,17 @@ display: block;
      border: 2px solid #eeeeee;
     height: 95px;
     width: 700px;
+     background-color: #d2d6dc;
+    padding-left: 10px;
 }
 .myInput2{
     display: block;
      border: 2px solid #eeeeee;
     height: 35px;
     width: 350px;
+     background-color: #d2d6dc;
+    padding-left: 10px;
+  
 }
 
 
