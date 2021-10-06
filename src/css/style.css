@@ -868,7 +868,13 @@ nav{
     width: 140px;
     margin-top: 40px;
     padding-left: 350px;
+    transform: scale(1);
     
+}
+
+.navigation h4:hover{
+    color: #e78402;
+    transform: scale(1.1);
 }
 .navigation h4{
    font-size: 14px;
@@ -877,6 +883,7 @@ nav{
     margin-top: 15px;
     white-space: nowrap; 
     line-height: 20px;
+    transition: all 0.5s;
 }
 
 
@@ -885,7 +892,7 @@ nav{
     width: 140px;
     margin-top: 40px;
     padding-left: 350px;
-    
+    transform: scale(1);
 }
 
 .sms h4{
@@ -893,15 +900,20 @@ nav{
     font-weight: 500;
     text-align: justify;
     margin-top: 15px;
-    white-space: nowrap; 
+    white-space: nowrap;
+    transition: all 0.5s;
     
+}
+.sms h4:hover{
+    color: #e78402;
+    transform: scale(1.1);
 }
 .tel{
     float: left;
     width: 140px;
     margin-top: 40px;
     padding-left: 350px;
-    
+    transform: scale(1);
 }
 .tel h4{
     font-size: 14px;
@@ -909,17 +921,25 @@ nav{
     text-align: justify;
     margin-top: 15px;
     white-space: nowrap; 
-    
+    transition: all 0.5s;
 }
 
-
+.tel h4:hover{
+    color: #e78402;
+    transform: scale(1.1);
+}
 .write_to_me h3{
     margin-top: 160px;
     font-size: 16px;
     font-weight: 600;
+    transition: all 0.5s;
+    transform: scale(1);
 }
 
-
+.write_to_me h3:hover{
+    color: #e78402;
+    transform: scale(1.2);
+}
 
 .myInput{
     display: block;
@@ -941,8 +961,19 @@ nav{
     background: none;
     color: #fff; 
     text-align: center;
+    transform: scale3d(1);
+    transition: all 0.6s;
     
 }
+.yourInput:active{
+    color: #fff;
+    
+}
+.yourInput:hover{
+    color: #e78402;
+    transform: scale(1.2);
+}
+
 
 .yourInput2{
     display: block;
@@ -952,6 +983,7 @@ nav{
      background-color: #d2d6dc;
     padding-left: 10px;
 }
+
 .myInput2{
     display: block;
      border: 2px solid #eeeeee;
@@ -973,5 +1005,12 @@ nav{
     color: #fff;
     text-align: center;
     line-height: 80px;
+    transform: scale(1);
+    transition: all 0.7s;
+}
+
+.footer h4:hover{
+    color: #e78402;
+    transform: scale(1.1);
 }
 
