@@ -273,16 +273,16 @@ nav{
 }
 
 
-.what_i_can_do ul:nth-child(1){
+.what_i_can_do li:nth-child(1){
     animation-delay: 0.5s;
 }
-.what_i_can_do ul:nth-child(2){
+.what_i_can_do li:nth-child(2){
     animation-delay: 1s;
 }
-.what_i_can_do ul:nth-child(3){
+.what_i_can_do li:nth-child(3){
     animation-delay: 1.5s;
 }
-.what_i_can_do ul:nth-child(4){
+.what_i_can_do li:nth-child(4){
     animation-delay: 2s;
 }
 
@@ -298,7 +298,7 @@ nav{
 }
 .what_i_can_do ul{
    margin-top: 85px; 
-    animation: topcheg 0.8s forwards;
+    animation: topcheg 0.8s ease forwards;
    padding-left: 300px;
     margin-right: 150px;
 
@@ -312,7 +312,7 @@ nav{
 .computer{
     float: left;
     width: 280px;
-    animation: comp 0.6s forwards;
+    animation: comp 0.6s ease forwards;
     
 }
 
@@ -345,7 +345,7 @@ nav{
 .development{
     float: left;
     width: 280px;
-    animation: devel 0.6s forwards;
+    animation: devel 0.6s ease forwards;
 }
 
 
@@ -377,7 +377,7 @@ nav{
 .optimization{
     float: left;
     width: 280px;
-    animation: opt 0.6s forwards;
+    animation: opt 0.6s ease forwards;
 }
 
 @keyframes opt{
@@ -407,7 +407,7 @@ nav{
 .marketing{
     float: left;
     width: 280px;
-    animation: market 0.6s forwards;
+    animation: market 0.6s ease forwards;
 }
 
 @keyframes market{
@@ -498,6 +498,7 @@ nav{
     border: 2px solid #63b5ae;
     background: #63b5ae;
     border-radius: 5px;
+    
    
 }
 
@@ -624,8 +625,12 @@ nav{
     color: #263244;
     width: 100%;
     height: 500px;
-    background: url(../img/bg4.jpg) center/cover no-repeat;   
-}  
+    background: url(../img/bg4.jpg) center/cover no-repeat;
+    
+} 
+
+
+
 .img{
     margin: 0px auto;
 }
@@ -638,6 +643,7 @@ nav{
     text-align: center;
     color: #263244;
     text-transform: uppercase; 
+    
 }    
     
    
@@ -646,10 +652,20 @@ nav{
     width: 280px;
     margin-top: 100px;
     padding-left: 300px;
+    animation: smile 2s ease forwards;
     
 }  
 
-
+@keyframes smile{
+    from{
+        opacity: 0;
+        margin-top: -100px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 100px;
+    }
+}
 .smile h3{
     margin-top: 20px;
     font-size: 25px;
@@ -670,8 +686,18 @@ nav{
     width: 280px;
     margin-top: 100px;
     padding-left: 300px;
+    animation: work 2s ease forwards;
 }
-
+@keyframes work{
+    from{
+        opacity: 0;
+        margin-top: -100px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 100px;
+    }
+}
 .work h3{
     margin-top: 20px;
     font-size: 25px;
@@ -691,6 +717,18 @@ nav{
     width: 280px;
     margin-top: 100px;
     padding-left: 300px;
+    animation: proj 2s ease forwards;
+}
+
+@keyframes proj{
+    from{
+        opacity: 0;
+        margin-top: -100px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 100px;
+    }
 }
 .projects h3{
      margin: 20px 30px 0px 0px;
@@ -711,7 +749,19 @@ nav{
     width: 280px;
     margin-top: 100px;
     padding-left: 300px;
+    animation: bon 2s ease forwards;
    
+}
+
+@keyframes bon{
+    from{
+        opacity: 0;
+        margin-top: -100px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 100px;
+    }
 }
 .bonus h3{
     margin-top: 20px;
