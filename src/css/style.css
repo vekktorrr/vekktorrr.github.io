@@ -157,7 +157,7 @@ nav{
 @keyframes titlemove{
     from{
        opacity: 0; 
-        margin-left: -500px;
+        margin-left: -300;
     }
     
     to{
@@ -181,14 +181,27 @@ nav{
     font-weight: 700;
     text-align: center;
     color: #263244;
-    text-transform: uppercase;
+    text-transform: uppercase;  
+    -webkit-animation: aboutme h2 0.6s forwards;
+    -o-animation: aboutme 0.6s forwards;
+    animation: aboutme 0.6s forwards;
     
+}
+
+@keyframes aboutme{
+    from{
+        opacity: 0;
+        margin-top: -100px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 0px;
+    }
 }
 .display_block{
     background: url(../img/boymini.png) center no-repeat;
     margin: 50px auto 15px auto; 
-   
-    
+     
 }
 
 .aboutme>p{
@@ -213,8 +226,22 @@ nav{
     padding: 0px 16px;
     width: 140px;
     margin: 9px 8px 12px 11px;
+    transition: all 0.3s;
+    transform: scale(1);
     
 }
+
+
+.aboutme input:hover{
+    background: #263244;
+    color: white;
+}
+
+.aboutme input:active{
+    transform: scale(1.1);
+}
+
+
 
 .what_i_can_do{
     padding-top: 75px;
@@ -223,7 +250,7 @@ nav{
     width: 100%;
     height: 500px;
     background: url(../img/bg3.jpg) center/cover no-repeat;
-      
+    
 }
 
 
@@ -233,19 +260,48 @@ nav{
     text-align: center;
     color: #263244;
     text-transform: uppercase;
-
+   
 }
+
+
 
 .what_i_can_do li{
    margin-right: 50px; 
    color: #cf7600;
-   font-weight: 500; 
-    
-    
+   font-weight: 500;  
+
 }
 
+
+.what_i_can_do ul:nth-child(1){
+    animation-delay: 0.5s;
+}
+.what_i_can_do ul:nth-child(2){
+    animation-delay: 1s;
+}
+.what_i_can_do ul:nth-child(3){
+    animation-delay: 1.5s;
+}
+.what_i_can_do ul:nth-child(4){
+    animation-delay: 2s;
+}
+
+@keyframes topcheg{
+    from{
+        opacity: 0;
+        margin-top: -400px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
 .what_i_can_do ul{
    margin-top: 85px; 
+    animation: topcheg 0.8s forwards;
+   padding-left: 300px;
+    margin-right: 150px;
+
 }
 
 .what_i_can_do p{
@@ -256,16 +312,29 @@ nav{
 .computer{
     float: left;
     width: 280px;
+    animation: comp 0.6s forwards;
     
 }
 
+@keyframes comp{
+    from{
+         opacity: 0;
+        margin-top: -350px;
+    }
+    to{
+         opacity: 1;
+        margin-top: 0px;
+    }
+}
 
 .computer li{
     margin: 20px 0px 10px 0px ;
     text-align: center;
     color: #cf7600;
     font-weight: 600; 
+    
 }
+
 
 .computer p{
     font-weight: 500;
@@ -276,6 +345,7 @@ nav{
 .development{
     float: left;
     width: 280px;
+    animation: devel 0.6s forwards;
 }
 
 
@@ -284,8 +354,21 @@ nav{
     text-align: center;
     color: #cf7600;
     font-weight: 600; 
-      
+    
 }
+
+@keyframes devel{
+    from{
+         opacity: 0;
+        margin-top: -350px;
+    }
+    to{
+         opacity: 1;
+        margin-top: 0px;
+    }
+
+}
+    
 
 .development p{
     font-weight: 500;
@@ -294,9 +377,20 @@ nav{
 .optimization{
     float: left;
     width: 280px;
+    animation: opt 0.6s forwards;
 }
 
+@keyframes opt{
+    from{
+         opacity: 0;
+        margin-top: -350px;
+    }
+    to{
+         opacity: 1;
+        margin-top: 0px;
+    }
 
+}
 .optimization li{
     margin: 20px 0px 10px 0px ;
     text-align: center;
@@ -313,9 +407,20 @@ nav{
 .marketing{
     float: left;
     width: 280px;
+    animation: market 0.6s forwards;
 }
 
+@keyframes market{
+    from{
+         opacity: 0;
+        margin-top: -350px;
+    }
+    to{
+         opacity: 1;
+        margin-top: 0px;
+    }
 
+}
 .marketing li{
     margin: 20px 0px 10px 0px ;
     text-align: center;
@@ -329,10 +434,7 @@ nav{
     color: #616976;
 }
 
-.what_i_can_do ul{
-    padding-left: 300px;
-    margin-right: 150px;
-}
+
 
 
 .case{
