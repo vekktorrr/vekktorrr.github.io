@@ -1,6 +1,66 @@
+
+@font-face {
+    font-family: 'Franklin Gothic';
+    src: url('../FranklinGothic-Medium.woff2') format('woff2'),
+        url('../FranklinGothic-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
 body{
     font-family: Arial , sans-serif;
+   
+    
 }
+.loader {
+ 
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+}
+ .loader, .loader_inner {
+  animation: animate 1.5s linear infinite;
+  clip: rect(0, 80px, 80px, 40px);
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  left: calc(50% - 40px);
+  top: calc(50% - 40px);
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(220deg)
+  }
+}
+ .loader , .loader_inner:after {
+  animation: animate2 1.5s linear infinite;
+  clip: rect(0, 80px, 80px, 40px);
+  content:'';
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+}
+@keyframes animate2 {
+  0% {
+    box-shadow: inset #b3dfd8 0 0 0 17px;
+    transform: rotate(-140deg);
+  }
+  
+  100% {
+    box-shadow: inset #b3dfd8 0 0 0 17px;
+    transform: rotate(140deg);
+  }
+}
+
 nav{
     width: 100%; 
     height: 60px;
@@ -25,6 +85,7 @@ nav{
     -webkit-animation: comming 2s ease;
     -o-animation: comming 2s ease;
     animation: comming 2s ease;
+    font-family: 'Franklin Gothic', sans-serif;
 }
 
 .menu{
@@ -36,8 +97,10 @@ nav{
     float: left;
     line-height: 60px;
     color: #fff;
-    margin-right: 40px;
-    font-size: 14px;
+    margin-right: 30px;
+    
+    font-size: 12px;
+    text-transform: uppercase;
     -webkit-animation: topshift 0.4s ease forwards;
     -o-animation: topshift 0.4s ease forwards;
     animation: topshift 0.4s ease forwards;
@@ -82,19 +145,22 @@ nav{
 
 .main{
     width: 100%;
-    height: calc(100% - 60px);
+    height: 100% ;
     background: url(../img/boy.png) 90% 100%/auto 85% no-repeat ,  url(../img/bg.jpg) center/cover no-repeat;
        
 }
+
 .title__container{
     float: left;
     margin: 432px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
     opacity: 0;
-    -webkit-animation: titlemove 1s ease forwards;
-    -o-animation: titlemove 1s ease forwards;
-    animation: 1s ease forwards;
+    -webkit-animation: titlemove 2s ease forwards;
+    -o-animation: titlemove 2s ease forwards;
+    animation: titlemove 2s ease forwards;
+    -webkit-animation-delay: 2.4s;
+    -o-animation-delay: 2.4s;
     animation-delay: 2.4s;
 } 
 
@@ -113,12 +179,12 @@ nav{
 @keyframes titlemove{
     from{
        opacity: 0; 
-        margin-left: -500px;
+        margin-right: -500px;
     }
     
     to{
        opacity: 1; 
-        margin-left: 404px;
+        margin-right: 404px;
     }
 }
 
@@ -163,7 +229,10 @@ nav{
     
 }
 
-
+.custom-css3{
+    font-size: 50px;
+    color: red;
+}
 
 .aboutme{
     padding-top: 110px;
