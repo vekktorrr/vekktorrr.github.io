@@ -3,10 +3,11 @@
 <head>
   <title> Андрей Браун - Веб-разработчик</title> 
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="css/font-awesome.css">
-  
+  <meta name="viewport" content="device-width, initial-scale=1.0">
  
 </head>
 <body>
@@ -14,8 +15,10 @@
 
  <header>
      <nav>
-         <div class="logo">Андрей Браун</div>
-         <div class="menu"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-2 col-lg-3 col-7"><div class="logo">Андрей Браун</div></div>
+                <div class=" px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block" ><div class="menu"> 
             <ul>
              <li><a href="#"> обо мне</a></li>
              <li><a href="#">услуги</a></li>
@@ -24,18 +27,42 @@
              <li><a href="#">отзывы</a></li>
              <li><a href="#">контакты</a></li>
              
-         </ul></div>
+         </ul>
+           </div></div>
+            </div>
+        </div>
+        <div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
+            <div class="dropdown">
+  <a class="btn btn-outline-secondary dropdown-toggle white-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+   Навигация 
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#"> обо мне</a></li>
+             <li><a class="dropdown-item" href="#">услуги</a></li>
+             <li> <a class="dropdown-item" href="#">кейсы</a></li>
+             <li><a class="dropdown-item" href="#">прайс</a></li>
+             <li><a class="dropdown-item" href="#">отзывы</a></li>
+             <li><a class="dropdown-item" href="#">контакты</a></li>
+  </ul>
+</div>
+        </div>
+         
+         
      </nav>
  </header>
  <div class="loader">
   <div class="loader_inner"></div>
 </div>
   <section class="main">
-     <div class="title__container">
+    <div class="container h-100"> <div class="row align-items-center h-100"><div class="col-lg-6 mt-5 pt-5">
+         <div class="title__container mt-5">
       <h1>Привет <br>Я Андрей Браун</h1>
       <h4><i class="fa fa-css3 custom-css3"  aria-hidden="true"></i>Фулл стек веб-разработчик</h4>
       <input type="button" value="Обо мне">
       <input type="button" value="Мои работы">
+    </div></div></div>
+    
     
   </div></section> 
  
@@ -365,7 +392,7 @@
    <br>
    <br>
    <br>
-   
+   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html> 
