@@ -13,25 +13,7 @@ body{
    
     
 }
-.loader {
- 
-  height: 100%;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 9999;
-}
- .loader, .loader_inner {
-  animation: animate 1.5s linear infinite;
-  clip: rect(0, 80px, 80px, 40px);
-  height: 80px;
-  width: 80px;
-  position: absolute;
-  left: calc(50% - 40px);
-  top: calc(50% - 40px);
-}
+
 @keyframes animate {
   0% {
     transform: rotate(0deg)
@@ -313,6 +295,7 @@ nav{
 
 .aboutme input{
     height: 25px;
+     width: 140px;
     text-align: center;
     border: 2px solid #6f707e;
     margin: 20px auto 30px auto;
@@ -322,7 +305,7 @@ nav{
     font-size: 10px;
     font-weight: 500;
     padding: 0px 16px;
-    width: 140px;
+   
     margin: 9px 8px 12px 11px;
     transition: all 0.3s;
     transform: scale(1);
