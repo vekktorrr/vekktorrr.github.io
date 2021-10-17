@@ -668,7 +668,7 @@ nav{
 }
 
 .adaptation h4{
-    padding-left: 400px;
+    
     font-size: 14px;
     font-weight: 600;
      line-height: 23px;
@@ -677,7 +677,7 @@ nav{
 
 
 
-.adaptation zero{
+.zero h4{
     padding-right: 660px;
     font-size: 15px;
 } 
@@ -705,7 +705,7 @@ nav{
 
 
 .statistic h2{
-   font-size: 18px;
+   font-size: 25px;
     font-weight: 700;
     text-align: center;
     color: #263244;
@@ -859,7 +859,7 @@ nav{
 }
 
 .feedback h2{
-   font-size: 18px;
+   font-size: 25px;
     font-weight: 700;
     text-align: center;
     color: #263244;
@@ -908,7 +908,7 @@ nav{
 }
 
 .contacts h2{
-     font-size: 18px;
+     font-size: 25px;
     font-weight: 700;
     text-align: center;
     color: #fff;
@@ -1070,7 +1070,7 @@ nav{
     background-color:  #354051;
 }
 .footer h4{
-    font-size: 10px;
+    font-size: 13px;
     color: #fff;
     text-align: center;
     line-height: 80px;
