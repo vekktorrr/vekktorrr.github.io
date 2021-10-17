@@ -262,9 +262,9 @@ nav{
     text-align: center;
     color: #263244;
     text-transform: uppercase;  
-    -webkit-animation: aboutme h2 0.6s forwards;
-    -o-animation: aboutme 0.6s forwards;
-    animation: aboutme 0.6s forwards;
+    -webkit-animation: aboutme h2 0.9s forwards;
+    -o-animation: aboutme h2 0.9s forwards;
+    animation: aboutme h2 0.9s forwards;
     
 }
 
@@ -531,7 +531,7 @@ nav{
     text-transform: uppercase;
 }
 .case p{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     margin: 30px auto 30px auto;
     color: #3f495a;
@@ -571,41 +571,29 @@ nav{
 }
     
 }
-.website input{
-    height: 40px;
-     width: 150px;
-    margin-left: 210px;
-    border: 2px solid #63b5ae;
-    background: #63b5ae;
-    border-radius: 5px;
-    
-   
-}
 
-.Visit live site{
-   font-size: 18px;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;  
-}
 
+.display__block1{
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
 .name{
     text-align: left;
-    padding-left: 500px;
+    padding-left: 300px;
 }
 
 
-.name h3{
-    font-size: 18px;
+.name h2{
+    font-size: 15px;
     font-weight: 600;
     margin-left: 60px;
     margin: 10px 200px 0px 0px;
-    
     color: #3f495a;
 }
 
 .name p{
-    font-size: 16px;
+    font-size: 14px;
     width: 850px;
     font-weight: 500;
     color: #3f495a;
@@ -615,8 +603,9 @@ nav{
     
 }
 
+.
 .money h2{
-    font-size: 25px;
+    font-size: 30px;
     padding-top: 75px;
     font-weight: 700;
     text-align: center;
@@ -624,7 +613,7 @@ nav{
     
 }
 .money h3{
-    padding-left: 400px;
+    
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 600;
@@ -643,8 +632,8 @@ nav{
 }
 
  .design  h3{
-    padding-left: 400px;
-    font-size: 15px;
+   
+    font-size: 17px;
     text-transform: uppercase;
     font-weight: 600;
     color: #1c2534;
@@ -661,8 +650,8 @@ nav{
 }
 
 .adaptation h3{
-    padding-left: 400px;
-    font-size: 15px;
+   
+    font-size: 17px;
     text-transform: uppercase;
     font-weight: 600;
     color: #1c2534;
@@ -686,11 +675,7 @@ nav{
     
 }
 
-.line{
-    padding-left: 400px;
-    
 
-}
 
 .adaptation zero{
     padding-right: 660px;
