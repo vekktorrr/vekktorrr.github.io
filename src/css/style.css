@@ -542,12 +542,12 @@ nav{
 }
 
 .client >h2{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: #384354;
     text-transform: uppercase;
     text-align: left;
-    padding-left: 210px;
+   
           
 }
 
@@ -580,7 +580,7 @@ nav{
 }
 .name{
     text-align: left;
-    padding-left: 300px;
+    
 }
 
 
@@ -611,6 +611,9 @@ nav{
     text-align: center;
     color: #1c2534;
     
+}
+.money img{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .money h3{
     
