@@ -1,8 +1,9 @@
 .box{
-    width: 500px;
-    height: 700px;
+    margin-left: 370px;
+    width: 900px;
+    height: 750px;
     border: 0px solid black;
-    box-shadow: 0 0 15px rgba(0,0,0,0.5);
-    padding: 20px;
+    box-shadow:  0 0 15px rgba(0,0,0,0.5);
     text-align: center;
+    
 }

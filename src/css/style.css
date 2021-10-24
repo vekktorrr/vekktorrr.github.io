@@ -612,8 +612,15 @@ nav{
     color: #1c2534;
     
 }
-.money img{
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+.box{
+   
+    
+    width: 900px;
+    height: 750px;
+    border: 0px solid black;
+    box-shadow:  0 0 15px rgba(0,0,0,0.5);
+    text-align: center;
+    
 }
 .money h3{
     
