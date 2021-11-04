@@ -542,7 +542,7 @@ nav{
 }
 
 .client >h2{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     color: #384354;
     text-transform: uppercase;
@@ -555,8 +555,8 @@ nav{
 .client >h4{
     font-size: 14px;
     text-align: left;
-    padding-left: 210px; 
-    margin-top: 10px;
+    
+    
     color: #3f495a
 }
 
@@ -566,14 +566,15 @@ nav{
     color: #384354;
     text-transform: uppercase;
     text-align: left;
-    margin-left: 210px;
-    margin-top:  0px;
+    margin-left: 60px;
+   
+   
 }
     
 }
 
 
-.display__block1{
+.display__block1 input{
     font-size: 14px;
     text-align: center;
     color: white;
@@ -587,8 +588,8 @@ nav{
 .name h2{
     font-size: 15px;
     font-weight: 600;
-    margin-left: 60px;
-    margin: 10px 200px 0px 0px;
+   
+    
     color: #3f495a;
 }
 
@@ -597,7 +598,7 @@ nav{
     width: 850px;
     font-weight: 500;
     color: #3f495a;
-    line-height: 23px;
+    
     margin: 5px 200px 0px 0px;
    
     
@@ -605,8 +606,8 @@ nav{
 
 .
 .money h2{
-    font-size: 30px;
-    padding-top: 75px;
+    font-size: 40px;
+    
     font-weight: 700;
     text-align: center;
     color: #1c2534;
@@ -620,11 +621,12 @@ nav{
     border: 0px solid black;
     box-shadow:  0 0 15px rgba(0,0,0,0.5);
     text-align: center;
+    margin-left: 150px;
     
 }
 .money h3{
     
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 600;
     color: #1c2534;
@@ -635,7 +637,7 @@ nav{
 .money select{
     height: 40px;
     width: 600px;
-    margin-left: 400px;
+    
     border: 2px solid #eeeeee;
     border-color: #eeeeee;
     background: #eeeeee;
@@ -643,7 +645,7 @@ nav{
 
  .design  h3{
    
-    font-size: 17px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 600;
     color: #1c2534;
@@ -653,7 +655,7 @@ nav{
  .design select{
     height: 40px;
     width: 600px;
-    margin-left: 400px;
+   
     border: 2px solid #eeeeee;
     border-color: #eeeeee;
     background: #eeeeee;
@@ -661,7 +663,7 @@ nav{
 
 .adaptation h3{
    
-    font-size: 17px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 600;
     color: #1c2534;
@@ -671,7 +673,7 @@ nav{
 .adaptation select{
     height: 40px;
     width: 600px;
-    margin-left: 400px;
+   
     border: 2px solid #eeeeee;
     border-color: #eeeeee;
     background: #eeeeee;
@@ -679,17 +681,18 @@ nav{
 
 .adaptation h4{
     
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;
-     line-height: 23px;
+    
     
 }
 
 
 
 .zero h4{
-    padding-right: 660px;
-    font-size: 15px;
+    
+    font-size: 20px;
+    margin-left: 590px;
 } 
 
 .statistic{
