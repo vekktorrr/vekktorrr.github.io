@@ -80,7 +80,7 @@ nav{
     float: left;
     line-height: 60px;
     color: #fff;
-    margin-right: 30px;
+    
     
     font-size: 14px;
     text-transform: uppercase;
@@ -541,6 +541,7 @@ nav{
     
 }
 
+
 .client >h2{
     font-size: 18px;
     font-weight: 600;
@@ -588,9 +589,8 @@ nav{
 .name h2{
     font-size: 15px;
     font-weight: 600;
-   
-    
     color: #3f495a;
+    text-align: left;
 }
 
 .name p{
@@ -598,13 +598,11 @@ nav{
     width: 850px;
     font-weight: 500;
     color: #3f495a;
-    
     margin: 5px 200px 0px 0px;
-   
+   text-align: left;
     
 }
 
-.
 .money h2{
     font-size: 40px;
     
@@ -1098,4 +1096,15 @@ nav{
     color: #e78402;
     transform: scale(1.1);
 }
+
+
+.element-animation{
+    opacity: 0;
+}
+.element-animation.show-animation{
+    opacity: 1;
+    transform: opacity 1s;
+    
+}
+
 
