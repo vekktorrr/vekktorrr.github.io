@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     let options = {threshold: [0.5]};
-    let observer = new IntersectionObsever(onEntry, options);
+    let observer = new IntersectionObserver(onEntry, options);
     let elements = $('.element-animation');
     elements.each((i, el) =>{
     observer.observe(el);
@@ -21,7 +21,7 @@ $(document).ready(function(){
   $('.image-link').magnificPopup({type:'image'});
 });
     
-   /* $(window).scroll(() => {
+ $(window).scroll(() => {
     let scrollDistance = $(window).scrollTop();
     
     $(".section").each(i, el) => {
@@ -37,15 +37,15 @@ $(document).ready(function(){
     
     }
 });
-}); */
+}); 
     
     
-/*
+
 $('a[href^="#"]').click(function(){
     let valHref = $(this).attr("href");
     $('html, body').animate({scrollTop: $(valHref).offset().top + "px"});
 });
-*/
+
     
 
 
