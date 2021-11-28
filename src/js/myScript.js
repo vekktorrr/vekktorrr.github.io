@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    let options = {threshold: [0.5]};
+    let options = {threshold: [1.0]};
     let observer = new IntersectionObserver(onEntry, options);
     let elements = $('.element-animation');
     elements.each((i, el) =>{
@@ -22,22 +22,21 @@ $(document).ready(function(){
 });
     
  $(window).scroll(() => {
-    let scrollDistance = $(window).scrollTop();
     
-    $(".section").each(i, el) => {
-        if ($(el)).offset().top - $("nav").outerHeight() <= scrollDistance{
-            $("nav a").each((i, el)) => {
+     let scrollDistance = $(window).scrollTop();
+    $("section").each((i, el) => {
+        if ($(el).offset().top - $("nav").outerHeight() <= scrollDistance){
+            $("nav a").each((i, el) => {
                 if ($(el).hasClass("active")){
                     $(el).removeClass("active");
                 }
             }); 
-            $('nav li:eq('+ i +')').find('a).addClass('active);
+            $('nav li:eq('+ i +')').find('a').addClass('active');
         }
-   
-    
-    }
+    });
+     
 });
-}); 
+
     
     
 
