@@ -257,7 +257,7 @@ nav{
 }
 
 .aboutme>h2{
-    font-size: 18px;
+    font-size: 26px;
     font-weight: 700;
     text-align: center;
     color: #263244;
@@ -336,7 +336,7 @@ nav{
 
 
 .what_i_can_do h2{
-    font-size: 18px;
+    font-size: 26px;
     font-weight: 700;
     text-align: center;
     color: #263244;
@@ -523,7 +523,7 @@ nav{
     text-align: center;
 }
 .case h2{
-    font-size: 18px;
+    font-size: 26px;
     padding-top: 75px;
     font-weight: 700;
     text-align: center;
@@ -587,7 +587,7 @@ nav{
 
 
 .name h2{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 600;
     color: #3f495a;
     text-align: left;
@@ -604,7 +604,7 @@ nav{
 }
 
 .money h2{
-    font-size: 40px;
+    font-size: 28px;
     
     font-weight: 700;
     text-align: center;
@@ -716,7 +716,7 @@ nav{
 
 
 .statistic h2{
-   font-size: 25px;
+   font-size: 26px;
     font-weight: 700;
     text-align: center;
     color: #263244;
@@ -870,7 +870,7 @@ nav{
 }
 
 .feedback h2{
-   font-size: 25px;
+   font-size: 26px;
     font-weight: 700;
     text-align: center;
     color: #263244;
@@ -919,7 +919,7 @@ nav{
 }
 
 .contacts h2{
-    font-size: 27px;
+    font-size: 26px;
     font-weight: 700;
     text-align: center;
     color: #fff;
@@ -1103,8 +1103,9 @@ nav{
 }
 .element-animation.show-animation{
     opacity: 1;
-    transform: opacity 1s;
+    transition: opacity 1.2s;
     
 }
+
 
 
