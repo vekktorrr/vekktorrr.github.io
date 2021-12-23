@@ -50,9 +50,16 @@ $('a[href^="#"]').click(function(){
 
     
 
-$('.display_block3').val(function){
-    let valDisplay_block3 = $()
 
-$('.display_block3').attr("atribute");
+   
+        let sum = 0;
+       
+        $("#display_block31").on("change", function(){
+             sum = sum + $(this).val(); 
+    });
+
+
+    
+
 
    
