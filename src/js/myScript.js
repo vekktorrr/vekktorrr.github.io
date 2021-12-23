@@ -58,8 +58,13 @@ $('a[href^="#"]').click(function(){
              sum = sum + $(this).val(); 
     });
 
+ 
+$("#display_block32").on("change", function(){
+             sum = sum + $(this).val(); 
+    });
 
-    
 
-
-   
+       
+        $("#display_block33").on("change", function(){
+             sum = sum + $(this).val(); 
+    });
