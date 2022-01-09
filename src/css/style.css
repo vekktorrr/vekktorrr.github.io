@@ -258,7 +258,7 @@ nav{
 
 .aboutme>h2{
     font-size: 26px;
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
     color: #263244;
     text-transform: uppercase;  
@@ -337,7 +337,7 @@ nav{
 
 .what_i_can_do h2{
     font-size: 26px;
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
     color: #263244;
     text-transform: uppercase;
@@ -525,7 +525,7 @@ nav{
 .case h2{
     font-size:26px;
     padding-top: 75px;
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
     color: #263244;
     text-transform: uppercase;
@@ -606,7 +606,7 @@ nav{
 .money h2{
     font-size: 28px;
     
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
     color: #1c2534;
     
@@ -626,7 +626,7 @@ nav{
     
     font-size: 20px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     color: #1c2534;
     margin-top: 50px;
     
@@ -645,7 +645,7 @@ nav{
    
     font-size: 20px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     color: #1c2534;
     margin-top: 50px;
 }
@@ -663,7 +663,7 @@ nav{
    
     font-size: 20px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     color: #1c2534;
     margin-top: 50px;
 }
@@ -680,7 +680,7 @@ nav{
 .adaptation h4{
     
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     
     
 }
@@ -688,19 +688,18 @@ nav{
 
 .sroki{
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .stoimost{
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .statistic{
     padding-top: 70px;
     text-align: center;
-    font-size: 18px;
-    font-weight: 700;
+   
     color: #263244;
     width: 100%;
     height: 500px;
@@ -720,7 +719,7 @@ nav{
 
 .statistic h2{
    font-size: 26px;
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
     color: #263244;
     text-transform: uppercase; 
@@ -912,7 +911,7 @@ nav{
 .contacts{
     padding-top: 70px;
     text-align: center;
-    font-size: 20px;
+    
     font-weight: 700;
     color: #fff;
     background: url(../img/bg5.jpg) center/cover no-repeat;
@@ -923,7 +922,7 @@ nav{
 
 .contacts h2{
     font-size: 26px;
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
     color: #fff;
     text-transform: uppercase; 
@@ -1116,3 +1115,24 @@ nav{
 
 
 
+
+#rec_bloc {
+  width: 30%;
+  height: 60px;
+  background: none;
+}
+#rec_bloc ul {
+  list-style: none;
+}
+#rec_bloc ul li {
+  float: left;
+  width: 15%;
+
+}
+#rec_bloc ul li a{
+  display: block;
+}
+#rec_bloc ul li img{
+  padding-left: 555px;
+    
+}
