@@ -247,7 +247,7 @@ nav{
 
 .aboutme{
     padding-top: 110px;
-    font-size: 18px;
+    
     text-align: center;
     color: #263244;
     width: 100%;
@@ -523,7 +523,7 @@ nav{
     text-align: center;
 }
 .case h2{
-    font-size: 26px;
+    font-size:26px;
     padding-top: 75px;
     font-weight: 700;
     text-align: center;
@@ -686,12 +686,15 @@ nav{
 }
 
 
-
-.zero h4{
-    
+.sroki{
     font-size: 20px;
-    margin-left: 590px;
-} 
+    font-weight: 600;
+}
+
+.stoimost{
+    font-size: 20px;
+    font-weight: 600;
+}
 
 .statistic{
     padding-top: 70px;
@@ -984,11 +987,13 @@ nav{
     margin-top: 15px;
     white-space: nowrap;
     transition: all 0.5s;
+    color: white;
     
 }
 .sms h4:hover{
     color: #e78402;
     transform: scale(1.1);
+    text-decoration: none;
 }
 .tel{
     float: left;
@@ -1004,6 +1009,8 @@ nav{
     margin-top: 15px;
     white-space: nowrap; 
     transition: all 0.5s;
+    color: white;
+    text-decoration: none;
 }
 
 .tel h4:hover{
