@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 
     let options = {threshold: [1.0]};
@@ -67,4 +68,26 @@ $("#display_block32").on("change", function(){
        
         $("#display_block33").on("change", function(){
              sum = sum + $(this).val(); 
+    }); 
+
+
+
+
+
+$(document).ready(function(){
+    new WOW().init();
+});
+
+$(document).ready(function(){
+    $("#EmailYo").mask("*{1,20}[.*{1,20}][.*{1,20}][.*{1,20}]@*{1,20}[.*{2,6}][.*{1,2}]"),
+                greedy: false,
+                clearMaskOnLostFocus: false ;
+    
+    $('form').submit(function(event){
+       
+        if($("#EmailYo").val() == "" ){
+            event.prenetDefault();
+            alert("Введите email");
+        }
     });
+});
